@@ -18,3 +18,6 @@ def test_fizzbuzz_returns_buzz_when_multiple_of_5():
 
 def test_fizzbuzz_returns_fizzbuzz_when_multiple_of_3_and_5():
     assert fizzbuzz(15) == 'fizzbuzz'
+
+def test_fizzbuzz_returns_fizzbuzz_when_multiple_of_3_and_5():
+    assert fizzbuzz(30) == 'fizzbuzz'
