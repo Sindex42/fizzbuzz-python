@@ -8,9 +8,3 @@ def fizzbuzz(x):
     if result == '':
         result = x
     return result
-
-
-def run_fizzbuzz(i, n):
-    while i <= n:
-        fizzbuzz(i)
-        i += 1
